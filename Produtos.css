@@ -1,0 +1,105 @@
+body {
+    background-color: rgb(87, 108, 128);
+}
+
+header {
+    background-color: rgb(56, 69, 82);
+    padding: 20px;
+    position: relative;
+}
+
+header>nav>ul>li {
+    display: inline;
+    margin: 0 0 0 30px;
+}
+
+
+a {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 30px;
+    -webkit-transition: 0.9s;
+}
+
+a:hover {
+    color: chocolate;
+    font-size: 32px;
+    -webkit-transition: 0.9s;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+
+p {
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+iframe{
+    width: 100%;
+    height: 800px;
+}
+
+footer {
+    top: 100%;
+    position: static;
+    width: 100%;
+    height: 10px;
+    text-align: center;
+    line-height: 50px;
+}
+
+footer>div {
+    background-color: rgb(56, 69, 82);
+}
+
+footer>div>ul>li {
+    letter-spacing: 2px;
+    display: inline;
+    margin: 0 0 0 20px;
+}
+
+#whats {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    -webkit-transition: 0.9s;
+
+}
+
+#whats:hover {
+    color: rgb(48, 170, 0);
+    font-size: 32px;
+    -webkit-transition: 0.9s;
+}
+
+#logo_social {
+    height: 30px;
+    width: 30px;
+}
+
+#face {
+    color: white;
+    font-size: 30px;
+}
+
+#face:hover {
+    color: rgb(0, 123, 180);
+    font-size: 32px;
+    -webkit-transition: 0.9s;
+}
+
+#insta {
+    color: white;
+    font-size: 30px;
+}
+
+#insta:hover {
+    color: rgb(161, 0, 148);
+    font-size: 32px;
+    -webkit-transition: 0.9s;
+}
